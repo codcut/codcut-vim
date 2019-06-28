@@ -28,4 +28,4 @@ vnoremap <leader>cc :<c-u>VisualPostToCodcut<cr>
 
 ## Credits
 
-Big thanks to [mattn](https://github.com/mattn) and its [webapi-vim](https://github.com/mattn/webapi-vim)
+Big thanks to [mattn](https://github.com/mattn) and their [webapi-vim](https://github.com/mattn/webapi-vim)
