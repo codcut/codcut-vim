@@ -1,7 +1,7 @@
 nnoremap <leader>g :set operatorfunc=VisualPostToCodcut<cr>g@
 vnoremap <leader>g :<c-u>call VisualPostToCodcut()<cr>
 
-let g:codcut_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpZCI6MSwiYXV0aGVudGljYXRpb25faWQiOjEsImFwcGxpY2F0aW9uX3R5cGUiOjEsImV4cCI6MTU5MzIwNzU1OX0.wHpy8JIrbawAzjc___BjQSZjHrH3zoBrADn0zIPRsb6P7_-vVllyGmiQ4p3Ampt0sgjIRn5w6Pj6jYDLaINhxg"
+let g:codcut_token = ""
 let g:comment_message = "You can leave a comment on your snippet by writing something here. Leave it empty or as it is to leave no comments"
 let g:codcut_url = 'https://resource.codcut.com/posts'
 
