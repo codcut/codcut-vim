@@ -23,7 +23,7 @@ Then enter visual mode, highlight some code and run `:VisualPostToCodcut`
 You might also want to setup a map:
 
 ```vim
-vnoremap <leader>g :<c-u>VisualPostToCodcut<cr>
+vnoremap <leader>cc :<c-u>VisualPostToCodcut<cr>
 ```
 
 ## Credits
