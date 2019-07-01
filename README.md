@@ -7,7 +7,7 @@ This plugin works with both VIM and NeoVIM, and it requires either curl or wget 
 You can install it via [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'codcut/vim-plugin.git'
+Plug 'codcut/codcut-vim-plugin.git'
 ```
 
 ## Usage
@@ -23,9 +23,9 @@ Then enter visual mode, highlight some code and run `:VisualPostToCodcut`
 You might also want to setup a map:
 
 ```vim
-vnoremap <leader>g :<c-u>VisualPostToCodcut<cr>
+vnoremap <leader>cc :<c-u>VisualPostToCodcut<cr>
 ```
 
 ## Credits
 
-Big thanks to [mattn](https://github.com/mattn) and its [webapi-vim](https://github.com/mattn/webapi-vim)
+Big thanks to [mattn](https://github.com/mattn) and their [webapi-vim](https://github.com/mattn/webapi-vim)

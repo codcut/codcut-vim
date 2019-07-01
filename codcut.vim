@@ -18,8 +18,6 @@ function! OpenCommentBuffer()
 endfunction
 
 function! SaveCommentBuffer(file_name)
-    echom "Closing buf " . a:file_name
-    
     execute "bd " . a:file_name
 
     :aug CodcutCommentGroup
@@ -47,7 +45,7 @@ function! SaveCommentBuffer(file_name)
 
     let response_json = webapi#json#decode(response['content'])
 
-    echom response_json['id']
+    echo response_json['id']
 endfunction
 
 function! g:VisualPostToCodcut()
