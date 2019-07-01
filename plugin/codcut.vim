@@ -1,4 +1,3 @@
-let g:codcut_token = ""
 let g:comment_message = "You can leave a comment on your snippet by writing something here. Leave it empty or as it is to leave no comments"
 let g:codcut_url = 'https://resource.codcut.com/api/posts'
 
