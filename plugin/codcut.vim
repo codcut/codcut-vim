@@ -1,9 +1,6 @@
-nnoremap <leader>g :set operatorfunc=VisualPostToCodcut<cr>g@
-vnoremap <leader>g :<c-u>call VisualPostToCodcut()<cr>
-
 let g:codcut_token = ""
 let g:comment_message = "You can leave a comment on your snippet by writing something here. Leave it empty or as it is to leave no comments"
-let g:codcut_url = 'https://resource.codcut.com/posts'
+let g:codcut_url = 'https://resource.codcut.com/api/posts'
 
 function! OpenCommentBuffer()
     let g:comment_file_name = tempname()
@@ -18,8 +15,6 @@ function! OpenCommentBuffer()
 endfunction
 
 function! SaveCommentBuffer(file_name)
-    echom "Closing buf " . a:file_name
-    
     execute "bd " . a:file_name
 
     :aug CodcutCommentGroup
@@ -47,7 +42,7 @@ function! SaveCommentBuffer(file_name)
 
     let response_json = webapi#json#decode(response['content'])
 
-    echom response_json['id']
+    echom "Snippet uploaded to https://codcut.com/posts/" . response_json['id']
 endfunction
 
 function! g:VisualPostToCodcut()
