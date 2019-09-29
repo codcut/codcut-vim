@@ -1,7 +1,6 @@
 # Codcut VIM plugin
 
-## Installation
-
+## :electric_plug: Installation	
 This plugin works with both VIM and NeoVIM, and it requires either curl or wget in the PATH.
 
 You can install it via [vim-plug](https://github.com/junegunn/vim-plug):
@@ -10,9 +9,9 @@ You can install it via [vim-plug](https://github.com/junegunn/vim-plug):
 Plug 'codcut/codcut-vim-plugin.git'
 ```
 
-## Usage
-
-Set your codcut token in the vim config (`~/.vimrc` or `~/.config/nvim/init.vim`):
+## :video_game: Usage
+Get a Codcut token from the app: **Your profile** → **Settings** → **Generate a token**.
+Set your token in the vim config (`~/.vimrc` or `~/.config/nvim/init.vim`):
 
 ```vim
 let g:codcut_token = "<token>"
@@ -26,6 +25,5 @@ You might also want to setup a map:
 vnoremap <leader>cc :<c-u>VisualPostToCodcut<cr>
 ```
 
-## Credits
-
+## :sparkles: Credits
 Big thanks to [mattn](https://github.com/mattn) and their [webapi-vim](https://github.com/mattn/webapi-vim)
