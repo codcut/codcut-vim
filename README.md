@@ -6,7 +6,7 @@ This plugin works with both VIM and NeoVIM, and it requires either curl or wget 
 You can install it via [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'codcut/codcut-vim-plugin.git'
+Plug 'codcut/codcut-vim.git'
 ```
 
 ## :video_game: Usage
